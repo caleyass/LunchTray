@@ -1,0 +1,669 @@
+01-03 23:00:19.803  8848  8871 I TestRunner: started: radio_buttons_update_side_menu_subtotal(com.example.lunchtray.OrderFunctionalityTests)
+01-03 23:00:19.822  8848  8871 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+01-03 23:00:19.838   539   588 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to INTENT_STARTED
+01-03 23:00:19.841   413   413 I perfetto: ing_service_impl.cc:758 Configured tracing session 38, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+01-03 23:00:19.842   411   411 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=38)
+01-03 23:00:19.862   539   588 D EventSequenceValidator: Transition from INTENT_STARTED to ACTIVITY_LAUNCHED
+01-03 23:00:19.873   411   411 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+01-03 23:00:19.877   539   938 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.877   539   938 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.877   539   938 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.877   539   938 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.877   539   938 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.877   539   938 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.877   539   938 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.877   539   938 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.877   539   938 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.877   539   938 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.877   539   938 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.878   539   938 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.878   539   938 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.878   539   938 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.878   539   938 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.878   539   938 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.878   539   938 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.878   539   938 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.878   539   938 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.878   539   938 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.891   317   361 D goldfish-address-space: claimShared: Ask to claim region [0x3f94ec000 0x3f9e90000]
+01-03 23:00:19.912  8848  8848 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@d90cf35 in: PRE_ON_CREATE
+01-03 23:00:19.913  8848  8848 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@d90cf35
+01-03 23:00:19.931  8848  8848 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@d90cf35 in: CREATED
+01-03 23:00:19.931  8848  8848 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@d90cf35
+01-03 23:00:19.936  8848  8848 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@d90cf35 in: STARTED
+01-03 23:00:19.936  8848  8848 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@d90cf35
+01-03 23:00:19.937  8848  8880 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+01-03 23:00:19.939  8848  8880 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+01-03 23:00:19.940  8848  8880 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+01-03 23:00:19.944  8848  8848 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@d90cf35 in: RESUMED
+01-03 23:00:19.944  8848  8848 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@d90cf35
+01-03 23:00:19.949  8848  8848 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@d90cf35 in: PAUSED
+01-03 23:00:19.950  8848  8848 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@d90cf35
+01-03 23:00:19.950   539 10011 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.950   539 10011 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.950   539 10011 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.950   539 10011 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.951   539 10011 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.951   539 10011 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.951   539 10011 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.951   539 10011 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.951   539 10011 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.951   539 10011 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.952   539 10011 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.952   539 10011 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.952   539 10011 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.952   539 10011 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.952   539 10011 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.952   539 10011 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.952   539 10011 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.952   539 10011 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.952   539 10011 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.952   539 10011 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+01-03 23:00:19.974   317   361 D goldfish-address-space: claimShared: Ask to claim region [0x3ff034000 0x3ff9d8000]
+01-03 23:00:19.992  8848  8848 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@a07c50f in: PRE_ON_CREATE
+01-03 23:00:19.992  8848  8848 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+01-03 23:00:20.045  8848  8848 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@a07c50f in: CREATED
+01-03 23:00:20.046  8848  8848 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@a07c50f
+01-03 23:00:20.048  8848  8848 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@a07c50f in: STARTED
+01-03 23:00:20.048  8848  8848 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@a07c50f
+01-03 23:00:20.049  8848  8848 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@a07c50f in: RESUMED
+01-03 23:00:20.049  8848  8848 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@a07c50f
+01-03 23:00:20.088  8848  8848 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@d90cf35 in: STOPPED
+01-03 23:00:20.089  8848  8848 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@d90cf35
+01-03 23:00:20.120  8848  8878 D HostConnection: HostConnection::get() New Host Connection established 0xeb667220, tid 8878
+01-03 23:00:20.123  8848  8878 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+01-03 23:00:20.125   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+01-03 23:00:20.125  8848  8878 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+01-03 23:00:20.145  8848  8878 D EGL_emulation: eglCreateContext: 0xeb666b90: maj 2 min 0 rcv 2
+01-03 23:00:20.151  8848  8878 D EGL_emulation: eglMakeCurrent: 0xeb666b90: ver 2 0 (tinfo 0xeb9b4f70) (first time)
+01-03 23:00:20.156   317   361 D goldfish-address-space: claimShared: Ask to claim region [0x3f8a30000 0x3f93d4000]
+01-03 23:00:20.159   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+01-03 23:00:20.160  8848  8878 I Gralloc4: mapper 4.x is not supported
+01-03 23:00:20.161  8848  8878 D HostConnection: createUnique: call
+01-03 23:00:20.161  8848  8878 D HostConnection: HostConnection::get() New Host Connection established 0xeb667290, tid 8878
+01-03 23:00:20.161  8848  8878 D goldfish-address-space: allocate: Ask for block of size 0x100
+01-03 23:00:20.161  8848  8878 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3f7ffe000 size 0x2000
+01-03 23:00:20.202  8848  8878 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+01-03 23:00:20.205   317   361 D goldfish-address-space: claimShared: Ask to claim region [0x3fc9a4000 0x3fd348000]
+01-03 23:00:20.207   317   361 D goldfish-address-space: claimShared: Ask to claim region [0x3fd348000 0x3fdcec000]
+01-03 23:00:20.257   539   593 D ArtManagerInternalImpl: /data/misc/iorapd/com.example.lunchtray/1/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity/compiled_traces/compiled_trace.pb doesn't exist
+01-03 23:00:20.260   539   588 D EventSequenceValidator: Transition from ACTIVITY_LAUNCHED to ACTIVITY_FINISHED
+01-03 23:00:20.263   539   593 I ActivityTaskManager: Displayed com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity: +416ms
+01-03 23:00:20.471  8848  8871 D EventInjectionStrategy: Creating injection strategy with input manager.
+01-03 23:00:20.471  8848  8871 W ample.lunchtra: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (greylist, reflection, allowed)
+01-03 23:00:20.472  8848  8871 W ample.lunchtra: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (greylist, reflection, allowed)
+01-03 23:00:20.472  8848  8871 W ample.lunchtra: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (greylist, reflection, allowed)
+01-03 23:00:20.516  8848  8871 W ample.lunchtra: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (greylist, reflection, allowed)
+01-03 23:00:20.526  8848  8848 W ample.lunchtra: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (greylist, reflection, allowed)
+01-03 23:00:20.526  8848  8848 W ample.lunchtra: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (greylist, reflection, allowed)
+01-03 23:00:20.526  8848  8848 W ample.lunchtra: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (greylist, reflection, allowed)
+01-03 23:00:20.532  8848  8848 W ample.lunchtra: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (greylist, reflection, allowed)
+01-03 23:00:20.532  8848  8848 W ample.lunchtra: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (greylist, reflection, allowed)
+01-03 23:00:20.532  8848  8848 W ample.lunchtra: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (greylist, reflection, allowed)
+01-03 23:00:20.539  8848  8848 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231138/com.example.lunchtray:id/salad>
+01-03 23:00:20.613   539   938 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+01-03 23:00:20.614   539   938 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+01-03 23:00:20.676  8887  8887 I HidlServiceManagement: Registered android.hardware.radio@1.1::IRadio/slot1 (start delay of 25ms)
+01-03 23:00:20.677   176   176 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+01-03 23:00:20.677  1183  1183 I android_os_HwBinder: HwBinder: Starting thread pool for getting: android.hardware.radio@1.1::IRadio/slot1
+01-03 23:00:20.682   220   220 E android.system.suspend@1.0-service: WakeLock Stats: Stats capacity met, consider adjusting capacity to avoid stats eviction.
+01-03 23:00:20.683   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.radio.deprecated@1.0::IOemHook/slot1 in either framework or device manifest.
+01-03 23:00:20.721  1183  1183 D TelephonyProvider: subIdString = 1 subId = 1
+01-03 23:00:20.743   539 10011 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:20.743   539 10011 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:20.743   838   862 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:20.743   539 10011 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:20.744   539 10011 I chatty  : uid=1000(system) Binder:539_21 identical 1 line
+01-03 23:00:20.744   539 10011 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:20.744   838   838 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+01-03 23:00:20.744   838   862 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:20.744  1495  1526 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:20.744  1183  2506 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:20.745  1183  2506 I chatty  : uid=1001(radio) Binder:1183_8 identical 3 lines
+01-03 23:00:20.745  1183  2506 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:20.745   818  1669 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:20.745  1183  1227 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:20.745  6241  6260 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:20.745  1183  2389 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:20.749   818  1319 I HeadsetPhoneState: stopListenForPhoneState(), no listener indicates nothing is listening
+01-03 23:00:20.749   818  1319 W HeadsetPhoneState: startListenForPhoneState, no event to listen
+01-03 23:00:20.749   539   938 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+01-03 23:00:20.752   838   838 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=No service nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@59cb118 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+01-03 23:00:20.755  1183  1183 D ServiceStateProvider: subId=1
+01-03 23:00:20.757   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:20.760  2657  2657 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+01-03 23:00:20.767   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:20.774  6241  8717 W MessagingApp: canonicalizeMccMnc: invalid mccmnc:null ,null
+01-03 23:00:20.778  1183  2562 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+01-03 23:00:20.778  1183  2506 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPrivilegeStatusForUid: No UICC
+01-03 23:00:20.779  6241  8717 I MessagingApp: Carrier configs loaded: Bundle[{httpSocketTimeout=60000, aliasMinChars=2, smsToMmsTextThreshold=-1, enableSMSDeliveryReports=true, maxMessageTextSize=-1, supportMmsContentDisposition=true, enabledTransID=false, aliasEnabled=false, supportHttpCharsetHeader=false, allowAttachAudio=true, smsToMmsTextLengthThreshold=-1, recipientLimit=2147483647, uaProfTagName=x-wap-profile, aliasMaxChars=48, maxImageHeight=1944, enableMMSDeliveryReports=false, userAgent=, mmsCloseConnection=true, config_cellBroadcastAppLinks=true, maxSubjectLength=40, httpParams=, enableGroupMms=true, emailGatewayNumber=, maxMessageSize=1048576, naiSuffix=, enableMMSReadReports=false, maxImageWidth=2592, uaProfUrl=, enabledMMS=false, enabledNotifyWapMMSC=false, sendMultipartSmsAsSeparateMessages=false, enableMultipartSMS=true}] from resources+system for subId=1
+01-03 23:00:20.789  1183  2506 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPrivilegeStatusForUid: No UICC
+01-03 23:00:20.796  1183  2506 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPrivilegeStatusForUid: No UICC
+01-03 23:00:20.797  1183  1183 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+01-03 23:00:20.839  1183  2506 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPrivilegeStatusForUid: No UICC
+01-03 23:00:20.845  1183  2506 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPrivilegeStatusForUid: No UICC
+01-03 23:00:20.851  1183  2562 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPrivilegeStatusForUid: No UICC
+01-03 23:00:20.870  1183  1183 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+01-03 23:00:20.871  1183  1183 D CarrierSvcBindHelper: No carrier app for: 0
+01-03 23:00:20.871  1183  1183 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+01-03 23:00:20.871  1183  1183 D CarrierSvcBindHelper: No carrier app for: 0
+01-03 23:00:20.875  1183  1183 E VvmPkgInstalledRcvr: cannot create TelephonyManager from ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
+01-03 23:00:20.889  8848  8848 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Subtotal: $2.50"}' assertion on view view.getId() is <2131231217/com.example.lunchtray:id/subtotal>
+01-03 23:00:20.892  8848  8848 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231187/com.example.lunchtray:id/soup>
+01-03 23:00:20.945  1183  1183 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+01-03 23:00:20.945  1183  1183 D CarrierSvcBindHelper: No carrier app for: 0
+01-03 23:00:20.945  1183  1183 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+01-03 23:00:20.945  1183  1183 D CarrierSvcBindHelper: No carrier app for: 0
+01-03 23:00:20.948  1183  1183 E VvmPkgInstalledRcvr: cannot create TelephonyManager from ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
+01-03 23:00:20.966  1183  1183 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+01-03 23:00:20.970   539 10011 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+01-03 23:00:20.979   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.radio.config@1.1::IRadioConfig/default in either framework or device manifest.
+01-03 23:00:20.980   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.radio.config@1.0::IRadioConfig/default in either framework or device manifest.
+01-03 23:00:21.005   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.radio.config@1.1::IRadioConfig/default in either framework or device manifest.
+01-03 23:00:21.012   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.radio.config@1.0::IRadioConfig/default in either framework or device manifest.
+01-03 23:00:21.014   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.radio.config@1.1::IRadioConfig/default in either framework or device manifest.
+01-03 23:00:21.016   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.radio.config@1.0::IRadioConfig/default in either framework or device manifest.
+01-03 23:00:21.020  1183  1183 D CallNotifier: updatePhoneStateListeners: update CF notifications.
+01-03 23:00:21.020  1183  1183 I NotificationMgr: updateCfi: subId= 1, visible=N
+01-03 23:00:21.021  1183  1183 I NotificationMgr: updateMwi(): subId 1 update to false
+01-03 23:00:21.028  1183  1183 I Telephony: TelecomAccountRegistry: onSubscriptionsChanged - update accounts
+01-03 23:00:21.028  1183  1183 I Telephony: PstnIncomingCallNotifier: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:21.028  1183  1183 D Telephony: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:21.028  1183  1183 I Telephony: TelecomAccountRegistry: setupAccounts: Found 1 phones.  Attempting to register.
+01-03 23:00:21.028  1183  1183 I Telephony: TelecomAccountRegistry: setupAccounts: Phone with subscription id 1
+01-03 23:00:21.028  1183  1183 D Telephony: TelecomAccountRegistry: setupAccounts: skipping invalid subid 1
+01-03 23:00:21.028  1183  1183 I Telephony: setupAccounts: adding default
+01-03 23:00:21.029  1183  1183 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+01-03 23:00:21.030  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - received legacy voicemail notification
+01-03 23:00:21.030  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - isRefresh: true
+01-03 23:00:21.030  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - clearing notification
+01-03 23:00:21.030  2676  2676 I Dialer  : LegacyVoicemailNotifier.cancelNotification - enter
+01-03 23:00:21.030  2676  2676 I Dialer  : LegacyVoicemailNotifier.cancelNotification - 'null' id, canceling all legacy voicemail notifications
+01-03 23:00:21.031  1183  1183 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+01-03 23:00:21.031  1183  1183 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+01-03 23:00:21.031  1183  1183 I Telephony: isRttCurrentlySupported -- emergency acct and no device support
+01-03 23:00:21.032  1183  1183 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+01-03 23:00:21.035  1183  1183 I chatty  : uid=1001(radio) com.android.phone identical 8 lines
+01-03 23:00:21.036  1183  1183 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+01-03 23:00:21.043  1183  1183 I Telephony: AccountEntry: Registered phoneAccount: [[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***] with handle: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
+01-03 23:00:21.043  1183  1183 I Telephony: PstnIncomingCallNotifier: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:21.043  1183  1183 D Telephony: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:21.045  1183  1183 I Telephony: TelecomAccountRegistry: Unregistering phone account ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}.
+01-03 23:00:21.051  1183  1183 D MultiSimSettingController: onSubscriptionsChanged
+01-03 23:00:21.051  1183  1183 D MultiSimSettingController: updateDefaults
+01-03 23:00:21.052  1183  1183 D MultiSimSettingController: [updateDefaultValues] change: 0
+01-03 23:00:21.054  1183  1183 I Telephony: isRttCurrentlySupported -- emergency acct and no device support
+01-03 23:00:21.059  1183  1183 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntentAndPhone: No UICC
+01-03 23:00:21.070  1183  1183 D IntentBroadcaster: Broadcasting and adding intent for rebroadcast: android.intent.action.SIM_STATE_CHANGED UNKNOWN for phoneId 0
+01-03 23:00:21.076  1183  1183 D CarrierConfigLoader: Update config for phoneId: 0 simState: UNKNOWN
+01-03 23:00:21.076  1183  1183 D CarrierSvcBindHelper: update binding for phoneId: 0 simState: UNKNOWN
+01-03 23:00:21.076   838   838 V KeyguardUpdateMonitor: action android.intent.action.SIM_STATE_CHANGED state: UNKNOWN slotId: 0 subid: 1
+01-03 23:00:21.077   838   838 D KeyguardUpdateMonitor: handleSimStateChange(subId=1, slotId=0, state=0)
+01-03 23:00:21.081  1183  1183 D CarrierConfigLoader: mHandler: 9 phoneId: 0
+01-03 23:00:21.085  1183  1183 D CarrierConfigLoader: mHandler: 9 phoneId: 0
+01-03 23:00:21.103   539   938 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+01-03 23:00:21.132  1183  1183 I Telephony: handleVideoCapabilitesChanged. Video capability - false
+01-03 23:00:21.133  1183  1183 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: ICC ID is null or empty.
+01-03 23:00:21.137  1183  1183 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+01-03 23:00:21.137  1183  1183 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+01-03 23:00:21.137  1183  1183 I Telephony: isRttCurrentlySupported -- emergency acct and no device support
+01-03 23:00:21.176  1183  1183 D CarrierConfigLoader: mHandler: 0 phoneId: 0
+01-03 23:00:21.177  1183  1183 D CarrierConfigLoader: Broadcast CARRIER_CONFIG_CHANGED for phone 0, subId=1
+01-03 23:00:21.177  1183  1183 D CarrierSvcBindHelper: mHandler: 0
+01-03 23:00:21.177  1183  1183 D CarrierSvcBindHelper: Rebinding if necessary for phoneId: 0
+01-03 23:00:21.178  1183  1183 D CarrierSvcBindHelper: No carrier app for: 0
+01-03 23:00:21.178  1183  1183 I VvmSimStateTracker: android.intent.action.SIM_STATE_CHANGED
+01-03 23:00:21.179  6241  6241 I MessagingApp: Carrier config changed. Reloading MMS config.
+01-03 23:00:21.179  2657  2657 D CellBroadcastReceiver: onReceive Intent { act=android.telephony.action.CARRIER_CONFIG_CHANGED flg=0x15000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+01-03 23:00:21.179  2657  2657 D CellBroadcastReceiver: initializeSharedPreference
+01-03 23:00:21.179  2657  2657 D CellBroadcastReceiver: Skip setting default values of shared preference.
+01-03 23:00:21.180  2657  2657 D CellBroadcastReceiver: Default interval 2 did not change.
+01-03 23:00:21.180  2657  2657 D CellBroadcastReceiver: disable launcher activity: com.android.cellbroadcastreceiver.CellBroadcastListLauncherActivity
+01-03 23:00:21.185   539   539 D WifiService: ACTION_CARRIER_CONFIG_CHANGED, active subId: 1
+01-03 23:00:21.186  2657  2657 D CellBroadcastReceiver: Start Cell Broadcast configuration.
+01-03 23:00:21.197  1926  8757 I constellation: [sim_state_checker] Handling intent Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x5000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+01-03 23:00:21.199  6241  8894 W MessagingApp: canonicalizeMccMnc: invalid mccmnc:null ,null
+01-03 23:00:21.200  6241  8894 I MessagingApp: Carrier configs loaded: Bundle[{httpSocketTimeout=60000, aliasMinChars=2, smsToMmsTextThreshold=-1, enableSMSDeliveryReports=true, maxMessageTextSize=-1, supportMmsContentDisposition=true, enabledTransID=false, aliasEnabled=false, supportHttpCharsetHeader=false, allowAttachAudio=true, smsToMmsTextLengthThreshold=-1, recipientLimit=2147483647, uaProfTagName=x-wap-profile, aliasMaxChars=48, maxImageHeight=480, enableMMSDeliveryReports=false, userAgent=, mmsCloseConnection=false, config_cellBroadcastAppLinks=true, maxSubjectLength=40, httpParams=, enableGroupMms=true, emailGatewayNumber=, maxMessageSize=307200, naiSuffix=, enableMMSReadReports=false, maxImageWidth=640, uaProfUrl=, enabledMMS=true, enabledNotifyWapMMSC=false, sendMultipartSmsAsSeparateMessages=false, enableMultipartSMS=true}] from resources+system for subId=1
+01-03 23:00:21.210  1183  1183 D TelephonyProvider: subIdString = 1 subId = 1
+01-03 23:00:21.219  1183  1183 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: ICC ID is null or empty.
+01-03 23:00:21.226   539  4813 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.226   838   862 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.226   539  4813 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.226   539  4813 I chatty  : uid=1000(system) Binder:539_1B identical 2 lines
+01-03 23:00:21.226   539  4813 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.226   838   838 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+01-03 23:00:21.227  1183  1213 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.227   818  1669 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.227  1495  1526 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.227  1183  1213 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.227   818  1319 I HeadsetPhoneState: stopListenForPhoneState(), no listener indicates nothing is listening
+01-03 23:00:21.227  1183  1213 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.227   818  1319 W HeadsetPhoneState: startListenForPhoneState, no event to listen
+01-03 23:00:21.228   838   862 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.229  1183  1227 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.229  1183  2568 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.229  1183  2732 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.230  6241  6260 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.230  1183  3092 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.230   838   838 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=No service nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@23ce771 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+01-03 23:00:21.248  1183  1183 D ServiceStateProvider: subId=1
+01-03 23:00:21.248   838   838 D KeyguardViewMediator: onSimStateChanged(subId=1, slotId=0,state=5)
+01-03 23:00:21.249   838   838 D KeyguardViewMediator: READY, reset state? false
+01-03 23:00:21.258  6241  8894 W MessagingApp: canonicalizeMccMnc: invalid mccmnc:null ,null
+01-03 23:00:21.259  6241  8894 I MessagingApp: Carrier configs loaded: Bundle[{httpSocketTimeout=60000, aliasMinChars=2, smsToMmsTextThreshold=-1, enableSMSDeliveryReports=true, maxMessageTextSize=-1, supportMmsContentDisposition=true, enabledTransID=false, aliasEnabled=false, supportHttpCharsetHeader=false, allowAttachAudio=true, smsToMmsTextLengthThreshold=-1, recipientLimit=2147483647, uaProfTagName=x-wap-profile, aliasMaxChars=48, maxImageHeight=480, enableMMSDeliveryReports=false, userAgent=, mmsCloseConnection=false, config_cellBroadcastAppLinks=true, maxSubjectLength=40, httpParams=, enableGroupMms=true, emailGatewayNumber=, maxMessageSize=307200, naiSuffix=, enableMMSReadReports=false, maxImageWidth=640, uaProfUrl=, enabledMMS=true, enabledNotifyWapMMSC=false, sendMultipartSmsAsSeparateMessages=false, enableMultipartSMS=true}] from resources+system for subId=1
+01-03 23:00:21.263  2657  2657 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+01-03 23:00:21.276   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:21.279  8848  8848 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Subtotal: $3.00"}' assertion on view view.getId() is <2131231217/com.example.lunchtray:id/subtotal>
+01-03 23:00:21.279   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:21.282  8848  8848 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231121/com.example.lunchtray:id/potatoes>
+01-03 23:00:21.309  1183  1183 D IntentBroadcaster: Broadcasting and adding intent for rebroadcast: android.intent.action.SIM_STATE_CHANGED READY for phoneId 0
+01-03 23:00:21.313   838   838 V KeyguardUpdateMonitor: action android.intent.action.SIM_STATE_CHANGED state: READY slotId: 0 subid: 1
+01-03 23:00:21.313   838   838 D KeyguardUpdateMonitor: handleSimStateChange(subId=1, slotId=0, state=5)
+01-03 23:00:21.331  1183  1183 I Telephony: Carrier-config changed, checking for phone account updates.
+01-03 23:00:21.332  1183  1183 D OtaspSimStateReceiver: Received intent: android.telephony.action.CARRIER_CONFIG_CHANGED
+01-03 23:00:21.332  1183  1183 I Telephony: TelecomAccountRegistry: onSubscriptionsChanged - update accounts
+01-03 23:00:21.332  1183  1183 I Telephony: PstnIncomingCallNotifier: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:21.332  1183  1183 D Telephony: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:21.332  1183  1183 I Telephony: TelecomAccountRegistry: setupAccounts: Found 1 phones.  Attempting to register.
+01-03 23:00:21.332  1183  1183 I Telephony: TelecomAccountRegistry: setupAccounts: Phone with subscription id 1
+01-03 23:00:21.332  1183  1183 D Telephony: TelecomAccountRegistry: setupAccounts: skipping invalid subid 1
+01-03 23:00:21.332  1183  1183 I Telephony: setupAccounts: adding default
+01-03 23:00:21.334  1183  1183 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: ICC ID is null or empty.
+01-03 23:00:21.335  1183  1183 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+01-03 23:00:21.335  1183  1183 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+01-03 23:00:21.335  1183  1183 I Telephony: isRttCurrentlySupported -- emergency acct and no device support
+01-03 23:00:21.341  1183  1183 I Telephony: AccountEntry: Registered phoneAccount: [[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***] with handle: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
+01-03 23:00:21.341  1183  1183 I Telephony: PstnIncomingCallNotifier: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:21.341  1183  1183 D Telephony: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:21.348  1183  1183 D CallNotifier: updatePhoneStateListeners: update CF notifications.
+01-03 23:00:21.348  1183  1183 I NotificationMgr: updateCfi: subId= 1, visible=N
+01-03 23:00:21.348  1183  1183 I NotificationMgr: updateMwi(): subId 1 update to false
+01-03 23:00:21.350  1183  1183 D MultiSimSettingController: onSubscriptionsChanged
+01-03 23:00:21.350  1183  1183 D MultiSimSettingController: updateDefaults
+01-03 23:00:21.351  1183  1183 D MultiSimSettingController: [updateDefaultValues] change: 0
+01-03 23:00:21.352  1183  1183 I Telephony: isRttCurrentlySupported -- emergency acct and no device support
+01-03 23:00:21.364  1183  1183 I VvmSimStateTracker: android.intent.action.SIM_STATE_CHANGED
+01-03 23:00:21.373  1183  1183 D MultiSimSettingController: onCarrierConfigChanged phoneId 0 subId -1
+01-03 23:00:21.374  1183  1183 E MultiSimSettingController: onCarrierConfigChanged with invalid subId while subd 1 is active and its config is loaded
+01-03 23:00:21.374  1183  1183 D MultiSimSettingController: updateDefaults
+01-03 23:00:21.375  1183  1183 D MultiSimSettingController: [updateDefaultValues] change: 0
+01-03 23:00:21.376  1926  8757 I constellation: [sim_state_checker] Handling intent Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x5000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+01-03 23:00:21.400  1183  1183 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: ICC ID is null or empty.
+01-03 23:00:21.403  1183  1183 I VvmSimStateTracker: android.telephony.action.CARRIER_CONFIG_CHANGED
+01-03 23:00:21.403  1183  1183 I VvmSimStateTracker: Received SIM change for invalid subscription id.
+01-03 23:00:21.404  1183  1183 I Telephony: handleVideoCapabilitesChanged. Video capability - false
+01-03 23:00:21.405  1183  1183 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: ICC ID is null or empty.
+01-03 23:00:21.405  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - received legacy voicemail notification
+01-03 23:00:21.405  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - isRefresh: true
+01-03 23:00:21.405  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - clearing notification
+01-03 23:00:21.405  2676  2676 I Dialer  : LegacyVoicemailNotifier.cancelNotification - enter
+01-03 23:00:21.405  2676  2676 I Dialer  : LegacyVoicemailNotifier.cancelNotification - 'null' id, canceling all legacy voicemail notifications
+01-03 23:00:21.406  1183  1183 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+01-03 23:00:21.406  1183  1183 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+01-03 23:00:21.406  1183  1183 I Telephony: isRttCurrentlySupported -- emergency acct and no device support
+01-03 23:00:21.417   539 10011 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+01-03 23:00:21.420  1183  1183 I PhoneGlobals: Dismissing depersonal panel
+01-03 23:00:21.424  1183  1183 I CallNotifier: onCallForwardingIndicatorChanged(): subId=1, visible=N
+01-03 23:00:21.425  1183  1183 D CallNotifier: updatePhoneStateListeners: update CF notifications.
+01-03 23:00:21.425  1183  1183 I NotificationMgr: updateCfi: subId= 1, visible=N
+01-03 23:00:21.426  1183  1183 I NotificationMgr: updateMwi(): subId 1 update to false
+01-03 23:00:21.431  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - received legacy voicemail notification
+01-03 23:00:21.431  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - isRefresh: true
+01-03 23:00:21.431  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - clearing notification
+01-03 23:00:21.431  2676  2676 I Dialer  : LegacyVoicemailNotifier.cancelNotification - enter
+01-03 23:00:21.431  2676  2676 I Dialer  : LegacyVoicemailNotifier.cancelNotification - 'null' id, canceling all legacy voicemail notifications
+01-03 23:00:21.477  1183  1183 D TelephonyProvider: subIdString = 1 subId = 1
+01-03 23:00:21.480   539   938 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+01-03 23:00:21.495   539   938 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.495   539   938 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.495   838   862 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.496   838   838 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+01-03 23:00:21.496   539   938 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.496   539   938 I chatty  : uid=1000(system) Binder:539_9 identical 1 line
+01-03 23:00:21.496   539   938 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.496  1495  1526 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.496   818  1669 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.496  1183  3092 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.497  1183  2801 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.497  1183  2801 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.497  1183  2603 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.497  1183  2801 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.497  1183  2732 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.497  1183  1227 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.497   818  1319 I HeadsetPhoneState: stopListenForPhoneState(), no listener indicates nothing is listening
+01-03 23:00:21.497   818  1319 W HeadsetPhoneState: startListenForPhoneState, no event to listen
+01-03 23:00:21.497  6241  6260 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.497   838   838 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=No service nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@4d92956 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+01-03 23:00:21.500   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:21.499   838   862 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.505   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:21.509  1183  1183 D CallNotifier: updatePhoneStateListeners: update CF notifications.
+01-03 23:00:21.509  1183  1183 I NotificationMgr: updateCfi: subId= 1, visible=N
+01-03 23:00:21.510  1183  1183 I NotificationMgr: updateMwi(): subId 1 update to false
+01-03 23:00:21.517  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - received legacy voicemail notification
+01-03 23:00:21.517  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - isRefresh: false
+01-03 23:00:21.517  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - clearing notification
+01-03 23:00:21.517  2676  2676 I Dialer  : LegacyVoicemailNotifier.cancelNotification - enter
+01-03 23:00:21.534  6241  8717 W MessagingApp: canonicalizeMccMnc: invalid mccmnc:null ,null
+01-03 23:00:21.537  6241  8717 I MessagingApp: Carrier configs loaded: Bundle[{httpSocketTimeout=60000, aliasMinChars=2, smsToMmsTextThreshold=-1, enableSMSDeliveryReports=true, maxMessageTextSize=-1, supportMmsContentDisposition=true, enabledTransID=false, aliasEnabled=false, supportHttpCharsetHeader=false, allowAttachAudio=true, smsToMmsTextLengthThreshold=-1, recipientLimit=2147483647, uaProfTagName=x-wap-profile, aliasMaxChars=48, maxImageHeight=480, enableMMSDeliveryReports=false, userAgent=, mmsCloseConnection=false, config_cellBroadcastAppLinks=true, maxSubjectLength=40, httpParams=, enableGroupMms=true, emailGatewayNumber=, maxMessageSize=307200, naiSuffix=, enableMMSReadReports=false, maxImageWidth=640, uaProfUrl=, enabledMMS=true, enabledNotifyWapMMSC=false, sendMultipartSmsAsSeparateMessages=false, enableMultipartSMS=true}] from resources+system for subId=1
+01-03 23:00:21.545  2657  2657 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+01-03 23:00:21.553  1183  1183 D CallNotifier: updatePhoneStateListeners: update CF notifications.
+01-03 23:00:21.553  1183  1183 I NotificationMgr: updateCfi: subId= 1, visible=N
+01-03 23:00:21.555  1183  1183 I NotificationMgr: updateMwi(): subId 1 update to false
+01-03 23:00:21.564  1183  1183 I Telephony: TelecomAccountRegistry: onSubscriptionsChanged - update accounts
+01-03 23:00:21.564  1183  1183 I Telephony: PstnIncomingCallNotifier: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:21.564  1183  1183 D Telephony: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:21.564  1183  1183 I Telephony: TelecomAccountRegistry: setupAccounts: Found 1 phones.  Attempting to register.
+01-03 23:00:21.564  1183  1183 I Telephony: TelecomAccountRegistry: setupAccounts: Phone with subscription id 1
+01-03 23:00:21.565  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - received legacy voicemail notification
+01-03 23:00:21.565  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - isRefresh: true
+01-03 23:00:21.565  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - clearing notification
+01-03 23:00:21.565  2676  2676 I Dialer  : LegacyVoicemailNotifier.cancelNotification - enter
+01-03 23:00:21.574  1183  1183 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+01-03 23:00:21.574  1183  1183 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+01-03 23:00:21.574  1183  1183 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+01-03 23:00:21.574  1183  1183 I Telephony:  isRttSupported: false
+01-03 23:00:21.574  1183  1183 I Telephony:  isRoaming: false
+01-03 23:00:21.574  1183  1183 I Telephony:  isOnWfc: false
+01-03 23:00:21.587  1183  1183 I Telephony: AccountEntry: Registered phoneAccount: [[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***] with handle: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
+01-03 23:00:21.588  1183  1183 I Telephony: PstnIncomingCallNotifier: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:21.588  1183  1183 D Telephony: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:21.591  1183  1183 I Telephony: TelecomAccountRegistry: Unregistering phone account ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}.
+01-03 23:00:21.603  1183  1183 D MultiSimSettingController: onSubscriptionsChanged
+01-03 23:00:21.603  1183  1183 D MultiSimSettingController: updateDefaults
+01-03 23:00:21.608  1183  1183 D MultiSimSettingController: [updateDefaultValues] change: 0
+01-03 23:00:21.611  1183  1183 I CallNotifier: onCallForwardingIndicatorChanged(): subId=1, visible=N
+01-03 23:00:21.611  1183  1183 D CallNotifier: updatePhoneStateListeners: update CF notifications.
+01-03 23:00:21.611  1183  1183 I NotificationMgr: updateCfi: subId= 1, visible=N
+01-03 23:00:21.613  1183  1183 I NotificationMgr: updateMwi(): subId 1 update to false
+01-03 23:00:21.623  1183  1183 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+01-03 23:00:21.623  1183  1183 I Telephony:  isRttSupported: false
+01-03 23:00:21.623  1183  1183 I Telephony:  isRoaming: false
+01-03 23:00:21.623  1183  1183 I Telephony:  isOnWfc: false
+01-03 23:00:21.624  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - received legacy voicemail notification
+01-03 23:00:21.624  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - isRefresh: true
+01-03 23:00:21.624  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - clearing notification
+01-03 23:00:21.624  2676  2676 I Dialer  : LegacyVoicemailNotifier.cancelNotification - enter
+01-03 23:00:21.628  1183  1183 D CallNotifier: updatePhoneStateListeners: update CF notifications.
+01-03 23:00:21.628  1183  1183 I NotificationMgr: updateCfi: subId= 1, visible=N
+01-03 23:00:21.630  1183  1183 I NotificationMgr: updateMwi(): subId 1 update to false
+01-03 23:00:21.640  1183  1183 I Telephony: handleVideoCapabilitesChanged. Video capability - false
+01-03 23:00:21.643  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - received legacy voicemail notification
+01-03 23:00:21.643  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - isRefresh: false
+01-03 23:00:21.643  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - clearing notification
+01-03 23:00:21.643  2676  2676 I Dialer  : LegacyVoicemailNotifier.cancelNotification - enter
+01-03 23:00:21.645  1183  1183 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+01-03 23:00:21.645  1183  1183 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+01-03 23:00:21.646  1183  1183 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+01-03 23:00:21.646  1183  1183 I Telephony:  isRttSupported: false
+01-03 23:00:21.646  1183  1183 I Telephony:  isRoaming: false
+01-03 23:00:21.646  1183  1183 I Telephony:  isOnWfc: false
+01-03 23:00:21.679  8848  8848 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Subtotal: $2.00"}' assertion on view view.getId() is <2131231217/com.example.lunchtray:id/subtotal>
+01-03 23:00:21.681  8848  8848 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231128/com.example.lunchtray:id/rice>
+01-03 23:00:21.698  1183  1183 D TelephonyProvider: subIdString = 1 subId = 1
+01-03 23:00:21.747   539   938 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+01-03 23:00:21.765   838   838 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+01-03 23:00:21.766   363   469 D AudioFlinger: mixer(0xf58ce030) throttle end: throttle time(47)
+01-03 23:00:21.769  2657  2657 D CellBroadcastReceiver: onReceive Intent { act=android.telephony.action.DEFAULT_SMS_SUBSCRIPTION_CHANGED flg=0x21000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+01-03 23:00:21.769  2657  2657 D CellBroadcastReceiver: Start Cell Broadcast configuration.
+01-03 23:00:21.795   539   585 E GnssLocationProvider: IGnssConfiguration setEsExtensionSec() failed.
+01-03 23:00:21.795   539   585 E GnssConfiguration: Unable to set ES_EXTENSION_SEC: 0
+01-03 23:00:21.813  1183  1183 D TelephonyProvider: subIdString = 1 subId = 1
+01-03 23:00:21.845   838   838 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+01-03 23:00:21.845   539   938 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.845   838   862 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.845   539   938 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.845   539   938 I chatty  : uid=1000(system) Binder:539_9 identical 2 lines
+01-03 23:00:21.846   539   938 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.846  1183  1227 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.846  1495  1526 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.846   818  1669 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.846  1183  2801 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.846   838   862 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.846  1183  2568 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.846  1183  2801 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.846  1183  2801 I chatty  : uid=1001(radio) Binder:1183_E identical 2 lines
+01-03 23:00:21.847  1183  2801 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.847   818  1319 I HeadsetPhoneState: stopListenForPhoneState(), no listener indicates nothing is listening
+01-03 23:00:21.847   818  1319 W HeadsetPhoneState: startListenForPhoneState, no event to listen
+01-03 23:00:21.847  6241  6260 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.854   838   838 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=No service nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@992fdd7 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+01-03 23:00:21.856   838   838 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+01-03 23:00:21.860   838   838 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=No service nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@837c6c4 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+01-03 23:00:21.862   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:21.867   539   585 E GnssLocationProvider: IGnssConfiguration setEsExtensionSec() failed.
+01-03 23:00:21.867   539   585 E GnssConfiguration: Unable to set ES_EXTENSION_SEC: 0
+01-03 23:00:21.867  1183  1183 D TelephonyProvider: subIdString = 1 subId = 1
+01-03 23:00:21.867  6241  8717 W MessagingApp: canonicalizeMccMnc: invalid mccmnc:null ,null
+01-03 23:00:21.870   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:21.878  6241  8717 I MessagingApp: Carrier configs loaded: Bundle[{httpSocketTimeout=60000, aliasMinChars=2, smsToMmsTextThreshold=-1, enableSMSDeliveryReports=true, maxMessageTextSize=-1, supportMmsContentDisposition=true, enabledTransID=false, aliasEnabled=false, supportHttpCharsetHeader=false, allowAttachAudio=true, smsToMmsTextLengthThreshold=-1, recipientLimit=2147483647, uaProfTagName=x-wap-profile, aliasMaxChars=48, maxImageHeight=480, enableMMSDeliveryReports=false, userAgent=, mmsCloseConnection=false, config_cellBroadcastAppLinks=true, maxSubjectLength=40, httpParams=, enableGroupMms=true, emailGatewayNumber=, maxMessageSize=307200, naiSuffix=, enableMMSReadReports=false, maxImageWidth=640, uaProfUrl=, enabledMMS=true, enabledNotifyWapMMSC=false, sendMultipartSmsAsSeparateMessages=false, enableMultipartSMS=true}] from resources+system for subId=1
+01-03 23:00:21.880   539 10011 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+01-03 23:00:21.882   838   838 E StatusBarSignalPolicy: Unexpected subscription 1
+01-03 23:00:21.896   838   862 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.896   838   838 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+01-03 23:00:21.896   539  3314 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.896   539  3314 I chatty  : uid=1000(system) Binder:539_17 identical 2 lines
+01-03 23:00:21.896   539  3314 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.896   838   862 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.897   539  3314 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.897  1495  1526 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.897   818  1669 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.897   818  1319 I HeadsetPhoneState: stopListenForPhoneState(), no listener indicates nothing is listening
+01-03 23:00:21.897   818  1319 W HeadsetPhoneState: startListenForPhoneState, no event to listen
+01-03 23:00:21.898  1183  2568 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.898  1183  2568 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.899   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:21.899  1183  2568 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.899  1183  2391 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.900  6241  6260 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.901  1183  2801 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.902  1183  2506 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.903   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:21.903  1183  2603 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.905   838   838 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=No service nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@de789ad mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+01-03 23:00:21.907  1183  1183 D TelephonyProvider: subIdString = 1 subId = 1
+01-03 23:00:21.919   539 10011 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.919   539 10011 I chatty  : uid=1000(system) Binder:539_21 identical 3 lines
+01-03 23:00:21.919   539 10011 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.919   818  1669 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.919   818  1319 I HeadsetPhoneState: stopListenForPhoneState(), no listener indicates nothing is listening
+01-03 23:00:21.920  1495  1526 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.920   818  1319 W HeadsetPhoneState: startListenForPhoneState, no event to listen
+01-03 23:00:21.920  1183  2562 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.920  1183  2856 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.920  1183  2375 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.920  1183  2603 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.920  1183  2364 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.921  6241  6260 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.921  1183  2631 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.924   838  1636 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.924   838  1973 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.925  1183  3092 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.931   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:21.937   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:21.949  1183  1183 D TelephonyProvider: subIdString = 1 subId = 1
+01-03 23:00:21.965   838   838 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+01-03 23:00:21.974   838   838 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=No service nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@aaa9048 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+01-03 23:00:21.977  6241  8717 W MessagingApp: canonicalizeMccMnc: invalid mccmnc:null ,null
+01-03 23:00:21.979  6241  8717 I MessagingApp: Carrier configs loaded: Bundle[{httpSocketTimeout=60000, aliasMinChars=2, smsToMmsTextThreshold=-1, enableSMSDeliveryReports=true, maxMessageTextSize=-1, supportMmsContentDisposition=true, enabledTransID=false, aliasEnabled=false, supportHttpCharsetHeader=false, allowAttachAudio=true, smsToMmsTextLengthThreshold=-1, recipientLimit=2147483647, uaProfTagName=x-wap-profile, aliasMaxChars=48, maxImageHeight=480, enableMMSDeliveryReports=false, userAgent=, mmsCloseConnection=false, config_cellBroadcastAppLinks=true, maxSubjectLength=40, httpParams=, enableGroupMms=true, emailGatewayNumber=, maxMessageSize=307200, naiSuffix=, enableMMSReadReports=false, maxImageWidth=640, uaProfUrl=, enabledMMS=true, enabledNotifyWapMMSC=false, sendMultipartSmsAsSeparateMessages=false, enableMultipartSMS=true}] from resources+system for subId=1
+01-03 23:00:21.993   539   761 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.993   539   761 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.993   838  1973 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.993   539   761 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.994   539   761 I chatty  : uid=1000(system) Binder:539_5 identical 1 line
+01-03 23:00:21.995   539   761 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.995   838  1973 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.995   818  1669 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.995   818  1319 I HeadsetPhoneState: stopListenForPhoneState(), no listener indicates nothing is listening
+01-03 23:00:21.995   818  1319 W HeadsetPhoneState: startListenForPhoneState, no event to listen
+01-03 23:00:21.996  1495  1526 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.997  1183  2568 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.998  1183  2568 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.998  1183  1227 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:21.999   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:22.003   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:22.004  1183  2568 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.004  1183  2506 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.004  6241  6260 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.004  1183  2506 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.004  1183  2631 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.008  1183  1183 D TelephonyProvider: subIdString = 1 subId = 1
+01-03 23:00:22.009   838   838 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+01-03 23:00:22.012   838   838 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=No service nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@afc68f4 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+01-03 23:00:22.016  6241  8900 W MessagingApp: canonicalizeMccMnc: invalid mccmnc:null ,null
+01-03 23:00:22.019  6241  8900 I MessagingApp: Carrier configs loaded: Bundle[{httpSocketTimeout=60000, aliasMinChars=2, smsToMmsTextThreshold=-1, enableSMSDeliveryReports=true, maxMessageTextSize=-1, supportMmsContentDisposition=true, enabledTransID=false, aliasEnabled=false, supportHttpCharsetHeader=false, allowAttachAudio=true, smsToMmsTextLengthThreshold=-1, recipientLimit=2147483647, uaProfTagName=x-wap-profile, aliasMaxChars=48, maxImageHeight=480, enableMMSDeliveryReports=false, userAgent=, mmsCloseConnection=false, config_cellBroadcastAppLinks=true, maxSubjectLength=40, httpParams=, enableGroupMms=true, emailGatewayNumber=, maxMessageSize=307200, naiSuffix=, enableMMSReadReports=false, maxImageWidth=640, uaProfUrl=, enabledMMS=true, enabledNotifyWapMMSC=false, sendMultipartSmsAsSeparateMessages=false, enableMultipartSMS=true}] from resources+system for subId=1
+01-03 23:00:22.026   838  1973 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.027   838   838 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+01-03 23:00:22.027   539  7204 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.027   539  7204 I chatty  : uid=1000(system) Binder:539_1E identical 1 line
+01-03 23:00:22.027   539  7204 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.029   838   838 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=No service nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@62b381d mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+01-03 23:00:22.029   539  7204 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.030   539  7204 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.030   838  1973 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.032   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:22.033   818  1669 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.033  1495  1526 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.033   818  1319 I HeadsetPhoneState: stopListenForPhoneState(), no listener indicates nothing is listening
+01-03 23:00:22.033   818  1319 W HeadsetPhoneState: startListenForPhoneState, no event to listen
+01-03 23:00:22.033  1183  3092 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.035  1183  3092 I chatty  : uid=1001(radio) Binder:1183_10 identical 5 lines
+01-03 23:00:22.035  1183  3092 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.035  6241  6260 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.037   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:22.045  6241  8717 W MessagingApp: canonicalizeMccMnc: invalid mccmnc:null ,null
+01-03 23:00:22.047  6241  8717 I MessagingApp: Carrier configs loaded: Bundle[{httpSocketTimeout=60000, aliasMinChars=2, smsToMmsTextThreshold=-1, enableSMSDeliveryReports=true, maxMessageTextSize=-1, supportMmsContentDisposition=true, enabledTransID=false, aliasEnabled=false, supportHttpCharsetHeader=false, allowAttachAudio=true, smsToMmsTextLengthThreshold=-1, recipientLimit=2147483647, uaProfTagName=x-wap-profile, aliasMaxChars=48, maxImageHeight=480, enableMMSDeliveryReports=false, userAgent=, mmsCloseConnection=false, config_cellBroadcastAppLinks=true, maxSubjectLength=40, httpParams=, enableGroupMms=true, emailGatewayNumber=, maxMessageSize=307200, naiSuffix=, enableMMSReadReports=false, maxImageWidth=640, uaProfUrl=, enabledMMS=true, enabledNotifyWapMMSC=false, sendMultipartSmsAsSeparateMessages=false, enableMultipartSMS=true}] from resources+system for subId=1
+01-03 23:00:22.049  1183  1183 D IntentBroadcaster: Broadcasting and adding intent for rebroadcast: android.intent.action.SIM_STATE_CHANGED LOADED for phoneId 0
+01-03 23:00:22.058   539   539 D WifiService: resetting networks because SIM was loaded
+01-03 23:00:22.059   539   768 D WifiClientModeImpl: resetting EAP-SIM/AKA/AKA' networks since SIM was changed
+01-03 23:00:22.059  1183  1183 D TelephonyProvider: subIdString = 1 subId = 1
+01-03 23:00:22.059  1183  1183 D TelephonyProvider: getPreferredApnIdFromApn: for subId 1
+01-03 23:00:22.060   539   768 W WifiNetworkSuggestionsManager: SIM state is changed!
+01-03 23:00:22.063   838   838 V KeyguardUpdateMonitor: action android.intent.action.SIM_STATE_CHANGED state: LOADED slotId: 0 subid: 1
+01-03 23:00:22.064   838   838 D KeyguardUpdateMonitor: handleSimStateChange(subId=1, slotId=0, state=5)
+01-03 23:00:22.073  6241  8900 W MessagingApp: canonicalizeMccMnc: invalid mccmnc:null ,null
+01-03 23:00:22.074   539   768 D WifiConfigStore: Writing to stores completed in 14 ms.
+01-03 23:00:22.076  6241  8900 I MessagingApp: Carrier configs loaded: Bundle[{httpSocketTimeout=60000, aliasMinChars=2, smsToMmsTextThreshold=-1, enableSMSDeliveryReports=true, maxMessageTextSize=-1, supportMmsContentDisposition=true, enabledTransID=false, aliasEnabled=false, supportHttpCharsetHeader=false, allowAttachAudio=true, smsToMmsTextLengthThreshold=-1, recipientLimit=2147483647, uaProfTagName=x-wap-profile, aliasMaxChars=48, maxImageHeight=480, enableMMSDeliveryReports=false, userAgent=, mmsCloseConnection=false, config_cellBroadcastAppLinks=true, maxSubjectLength=40, httpParams=, enableGroupMms=true, emailGatewayNumber=, maxMessageSize=307200, naiSuffix=, enableMMSReadReports=false, maxImageWidth=640, uaProfUrl=, enabledMMS=true, enabledNotifyWapMMSC=false, sendMultipartSmsAsSeparateMessages=false, enableMultipartSMS=true}] from resources+system for subId=1
+01-03 23:00:22.080  1183  1183 D CarrierIdProvider: updateCarrierIdForSubId: 1
+01-03 23:00:22.081  1183  1183 D TelephonyProvider: subIdString = 1 subId = 1
+01-03 23:00:22.108   539  2571 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.108   838  1973 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.108   838   838 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+01-03 23:00:22.108   539  2571 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.109   539  2571 I chatty  : uid=1000(system) Binder:539_14 identical 2 lines
+01-03 23:00:22.110   539  2571 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.110  1183  2391 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.110  1495  1526 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.110  1183  2631 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.110   818  1669 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.110  1183  2391 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.110   838  1973 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.110  1183  2391 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.110   818  1319 I HeadsetPhoneState: stopListenForPhoneState(), no listener indicates nothing is listening
+01-03 23:00:22.110   818  1319 W HeadsetPhoneState: startListenForPhoneState, no event to listen
+01-03 23:00:22.110  1183  2391 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.110  1183  2391 I chatty  : uid=1001(radio) Binder:1183_6 identical 1 line
+01-03 23:00:22.111  1183  2391 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.111  6241  6260 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+01-03 23:00:22.112   838   838 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=No service nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@eedea92 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+01-03 23:00:22.116   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:22.121  1183  1183 D CarrierConfigLoader: Update config for phoneId: 0 simState: LOADED
+01-03 23:00:22.121  1183  1183 D CarrierSvcBindHelper: update binding for phoneId: 0 simState: LOADED
+01-03 23:00:22.121  1183  1183 D MultiSimSettingController: onDefaultDataSettingChanged
+01-03 23:00:22.127   539   765 W BestClock: java.time.DateTimeException: Missing NTP fix
+01-03 23:00:22.128  1183  1183 D MultiSimSettingController: onDefaultDataSettingChanged
+01-03 23:00:22.141  6241  8900 W MessagingApp: canonicalizeMccMnc: invalid mccmnc:null ,null
+01-03 23:00:22.143  6241  8900 I MessagingApp: Carrier configs loaded: Bundle[{httpSocketTimeout=60000, aliasMinChars=2, smsToMmsTextThreshold=-1, enableSMSDeliveryReports=true, maxMessageTextSize=-1, supportMmsContentDisposition=true, enabledTransID=false, aliasEnabled=false, supportHttpCharsetHeader=false, allowAttachAudio=true, smsToMmsTextLengthThreshold=-1, recipientLimit=2147483647, uaProfTagName=x-wap-profile, aliasMaxChars=48, maxImageHeight=480, enableMMSDeliveryReports=false, userAgent=, mmsCloseConnection=false, config_cellBroadcastAppLinks=true, maxSubjectLength=40, httpParams=, enableGroupMms=true, emailGatewayNumber=, maxMessageSize=307200, naiSuffix=, enableMMSReadReports=false, maxImageWidth=640, uaProfUrl=, enabledMMS=true, enabledNotifyWapMMSC=false, sendMultipartSmsAsSeparateMessages=false, enableMultipartSMS=true}] from resources+system for subId=1
+01-03 23:00:22.144  1183  1183 D CallNotifier: updatePhoneStateListeners: update CF notifications.
+01-03 23:00:22.144  1183  1183 I NotificationMgr: updateCfi: subId= 1, visible=N
+01-03 23:00:22.146  1183  1183 I NotificationMgr: updateMwi(): subId 1 update to false
+01-03 23:00:22.152  1183  1183 I Telephony: TelecomAccountRegistry: onSubscriptionsChanged - update accounts
+01-03 23:00:22.152  1183  1183 I Telephony: PstnIncomingCallNotifier: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:22.152  1183  1183 D Telephony: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:22.152  1183  1183 I Telephony: TelecomAccountRegistry: setupAccounts: Found 1 phones.  Attempting to register.
+01-03 23:00:22.152  1183  1183 I Telephony: TelecomAccountRegistry: setupAccounts: Phone with subscription id 1
+01-03 23:00:22.161  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - received legacy voicemail notification
+01-03 23:00:22.161  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - isRefresh: true
+01-03 23:00:22.161  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - clearing notification
+01-03 23:00:22.161  2676  2676 I Dialer  : LegacyVoicemailNotifier.cancelNotification - enter
+01-03 23:00:22.162  1183  1183 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+01-03 23:00:22.162  1183  1183 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+01-03 23:00:22.162  1183  1183 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+01-03 23:00:22.162  1183  1183 I Telephony:  isRttSupported: false
+01-03 23:00:22.162  1183  1183 I Telephony:  isRoaming: false
+01-03 23:00:22.162  1183  1183 I Telephony:  isOnWfc: false
+01-03 23:00:22.184  1183  1183 I Telephony: AccountEntry: Registered phoneAccount: [[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***] with handle: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
+01-03 23:00:22.184  1183  1183 I Telephony: PstnIncomingCallNotifier: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:22.184  1183  1183 D Telephony: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:22.194  1183  1183 D MultiSimSettingController: onSubscriptionsChanged
+01-03 23:00:22.194  1183  1183 D MultiSimSettingController: updateDefaults
+01-03 23:00:22.196  1183  1183 D MultiSimSettingController: [updateDefaultValues] change: 0
+01-03 23:00:22.202  1183  1183 I Telephony: TelecomAccountRegistry: onSubscriptionsChanged - update accounts
+01-03 23:00:22.202  1183  1183 I Telephony: PstnIncomingCallNotifier: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:22.202  1183  1183 D Telephony: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:22.202  1183  1183 I Telephony: TelecomAccountRegistry: setupAccounts: Found 1 phones.  Attempting to register.
+01-03 23:00:22.202  1183  1183 I Telephony: TelecomAccountRegistry: setupAccounts: Phone with subscription id 1
+01-03 23:00:22.212  1183  1183 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+01-03 23:00:22.212  1183  1183 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+01-03 23:00:22.214  1183  1183 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+01-03 23:00:22.214  1183  1183 I Telephony:  isRttSupported: false
+01-03 23:00:22.214  1183  1183 I Telephony:  isRoaming: false
+01-03 23:00:22.214  1183  1183 I Telephony:  isOnWfc: false
+01-03 23:00:22.221  1183  1183 I Telephony: AccountEntry: Registered phoneAccount: [[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***] with handle: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
+01-03 23:00:22.222  1183  1183 I Telephony: PstnIncomingCallNotifier: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:22.222  1183  1183 D Telephony: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:22.233  1183  1183 D CallNotifier: updatePhoneStateListeners: update CF notifications.
+01-03 23:00:22.233  1183  1183 I NotificationMgr: updateCfi: subId= 1, visible=N
+01-03 23:00:22.237  1183  1183 I NotificationMgr: updateMwi(): subId 1 update to false
+01-03 23:00:22.242  1183  1183 D MultiSimSettingController: onSubscriptionsChanged
+01-03 23:00:22.243  1183  1183 D MultiSimSettingController: updateDefaults
+01-03 23:00:22.244  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - received legacy voicemail notification
+01-03 23:00:22.245  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - isRefresh: true
+01-03 23:00:22.245  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - clearing notification
+01-03 23:00:22.245  2676  2676 I Dialer  : LegacyVoicemailNotifier.cancelNotification - enter
+01-03 23:00:22.248  1183  1183 D MultiSimSettingController: [updateDefaultValues] change: 0
+01-03 23:00:22.255  1183  1183 I Telephony: TelecomAccountRegistry: onSubscriptionsChanged - update accounts
+01-03 23:00:22.255  1183  1183 I Telephony: PstnIncomingCallNotifier: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:22.256  1183  1183 D Telephony: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:22.256  1183  1183 I Telephony: TelecomAccountRegistry: setupAccounts: Found 1 phones.  Attempting to register.
+01-03 23:00:22.256  1183  1183 I Telephony: TelecomAccountRegistry: setupAccounts: Phone with subscription id 1
+01-03 23:00:22.273  1183  1183 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+01-03 23:00:22.273  1183  1183 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+01-03 23:00:22.274  1183  1183 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+01-03 23:00:22.274  1183  1183 I Telephony:  isRttSupported: false
+01-03 23:00:22.274  1183  1183 I Telephony:  isRoaming: false
+01-03 23:00:22.274  1183  1183 I Telephony:  isOnWfc: false
+01-03 23:00:22.282  1183  1211 W System  : A resource failed to call close.
+01-03 23:00:22.283  1183  1183 I Telephony: AccountEntry: Registered phoneAccount: [[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=true}] GroupId: ***] with handle: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
+01-03 23:00:22.283  1183  1183 I Telephony: PstnIncomingCallNotifier: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:22.283  1183  1183 D Telephony: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:22.294  1183  1183 D CallNotifier: updatePhoneStateListeners: update CF notifications.
+01-03 23:00:22.295  1183  1183 I NotificationMgr: updateCfi: subId= 1, visible=N
+01-03 23:00:22.296  1183  1183 I NotificationMgr: updateMwi(): subId 1 update to false
+01-03 23:00:22.300  1183  1183 D MultiSimSettingController: onSubscriptionsChanged
+01-03 23:00:22.301  1183  1183 D MultiSimSettingController: updateDefaults
+01-03 23:00:22.302  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - received legacy voicemail notification
+01-03 23:00:22.302  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - isRefresh: true
+01-03 23:00:22.302  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - clearing notification
+01-03 23:00:22.302  2676  2676 I Dialer  : LegacyVoicemailNotifier.cancelNotification - enter
+01-03 23:00:22.302  1183  1183 D MultiSimSettingController: [updateDefaultValues] change: 0
+01-03 23:00:22.307  1183  1183 D CallNotifier: updatePhoneStateListeners: update CF notifications.
+01-03 23:00:22.307  1183  1183 I NotificationMgr: updateCfi: subId= 1, visible=N
+01-03 23:00:22.309  1183  1183 I NotificationMgr: updateMwi(): subId 1 update to false
+01-03 23:00:22.313  1183  1183 I Telephony: TelecomAccountRegistry: onSubscriptionsChanged - update accounts
+01-03 23:00:22.313  1183  1183 I Telephony: PstnIncomingCallNotifier: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:22.313  1183  1183 D Telephony: Unregistering: Handler (com.android.internal.telephony.GsmCdmaPhone) {e7c401d}
+01-03 23:00:22.313  1183  1183 I Telephony: TelecomAccountRegistry: setupAccounts: Found 1 phones.  Attempting to register.
+01-03 23:00:22.313  1183  1183 I Telephony: TelecomAccountRegistry: setupAccounts: Phone with subscription id 1
+01-03 23:00:22.314  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - received legacy voicemail notification
+01-03 23:00:22.314  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - isRefresh: true
+01-03 23:00:22.314  2676  2676 I Dialer  : LegacyVoicemailNotificationReceiver.onReceive - clearing notification
+01-03 23:00:22.314  2676  2676 I Dialer  : LegacyVoicemailNotifier.cancelNotification - enter
+01-03 23:00:22.324  1183  1183 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+01-03 23:00:22.325  1183  1183 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+01-03 23:00:22.327  1183  1183 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+01-03 23:00:22.327  1183  1183 I Telephony:  isRttSupported: false
+01-03 23:00:22.327  1183  1183 I Telephony:  isRoaming: false
+01-03 23:00:22.327  1183  1183 I Telephony:  isOnWfc: false
+01-03 23:00:22.327  8848  8848 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Subtotal: $1.50"}' assertion on view view.getId() is <2131231217/com.example.lunchtray:id/subtotal>
+01-03 23:00:22.328  8848  8871 I TestRunner: finished: radio_buttons_update_side_menu_subtotal(com.example.lunchtray.OrderFunctionalityTests)
